@@ -1,0 +1,10 @@
+GET http://localhost:8881/hello
+Accepts: application/json
+
+###
+POST http://localhost:8881/hello/post
+Content-Type: application/x-www-form-urlencoded
+
+name=test
+
+###
